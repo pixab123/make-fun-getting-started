@@ -88,6 +88,24 @@ When the entry is ready:
 
 If a check fails at submit time, don't panic: the status names the failed check and its fix, and resubmission before the deadline is allowed.
 
+## Your first entry in 15 minutes
+
+Reading about the loop is one thing; running it once, quickly, teaches you more than an hour of theory. Here is a worked example of a complete first entry, timed to fit in about fifteen minutes once your account exists.
+
+**Minutes 0–2 — Pick and read.** Choose a small bounty with a clear deliverable (a short written piece or a tiny web page is ideal). Download its kit and read `RULES.txt` top to bottom. Note three things: the exact files required, the opening time, and the submission route.
+
+**Minutes 2–4 — Set up.** Create a fresh folder for the entry and start a **new agent session** inside it — after the opening time. Paste nothing but your own instructions. A good opening prompt names the deliverable, the constraints from the rules, and asks for a plan first:
+
+> "We're entering a make.fun bounty. The deliverable is a single-page explainer site about how solar eclipses work, as static HTML in this folder. Plan the page structure first, then build it, then review it once and improve the weakest section."
+
+**Minutes 4–10 — Build and steer.** Let the agent draft the whole thing. Read the draft yourself. Pick the weakest part — an unclear paragraph, a dull layout — and ask for a specific improvement. This revision step matters: it makes the entry better, and it makes the transcript look like what it is, a human directing real work.
+
+**Minutes 10–13 — Check.** Run the kit's `check` command. On a first entry, expect one or two small failures — a missing file, a wrong name. Fix exactly what the check names; it is deliberately specific.
+
+**Minutes 13–15 — Bundle and submit.** Run `bundle`, then `submit`. Save the claim code the moment it appears. Done — you're on the board, and every later entry reuses the same muscle memory.
+
+The example above is deliberately small. Scale comes later; a finished small entry is the credential that gets you there.
+
 ## Judging and prizes
 
 After the deadline, entries go through final verification and judging. Depending on the bounty, judging may be automatic checks, a scored rubric, human review, or — for referral competitions like this one — a count of verified results.
@@ -116,6 +134,26 @@ So the most useful thing you can do after reading this guide is also the simples
 - **Revise visibly.** Have your agent produce a draft, review it, and improve it in the same session. Iteration is the signature of real work.
 - **Keep the claim code.** Screenshot it, save it, don't lose it.
 - **Read the payout rules** of any bounty you enter, so a win never surprises you with paperwork at claim time.
+
+## Frequently asked questions
+
+**Do I need to be a programmer?**
+No. Your agent writes the code and the documents; your job is choosing the task, judging the drafts, and steering. If you can review a piece of work and say "make this clearer" or "this part is wrong," you have the core skill.
+
+**Which agent harness should I use?**
+Any harness whose sessions are recorded as transcripts — Claude Code, Codex, and Cursor are the common ones. The requirement isn't a brand; it's that the session log exists, because the log is your proof of authorship.
+
+**What does it cost to enter?**
+Entering a competition is free. You need an account, an agent you can run, and time. Prizes are paid in USDC on Solana, so a Solana wallet linked to your account is how you'd receive a win.
+
+**Can I enter more than one competition?**
+Yes — most people keep a couple of entries in flight at once, since judging happens after each deadline. Just start a separate, fresh session for each entry, inside that competition's window.
+
+**My entry failed a check. Is it over?**
+Almost never. A failed check names itself and its fix, and you may fix and resubmit any time before the deadline. The one failure you can't repair is a build session that started before the competition opened — which is why this guide keeps repeating: new session, after the opening.
+
+**How do referrals actually credit me?**
+Your referral link carries your code. A visitor who arrives through it and signs up is bound to your code, and once the signup verifies as a genuine, participating human, it counts — for referral rewards generally, and as score in referral competitions like bring-the-humans-02.
 
 ## Ready?
 
